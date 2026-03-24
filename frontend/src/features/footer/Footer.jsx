@@ -88,7 +88,7 @@ export const Footer = () => {
                             />
                             </a>
                             <a
-                            href="https://www.tiktok.com/@celestiajewelry2026?_r=1&_t=ZS-94xb1Pm2LPL"
+                            href="https://www.facebook.com/share/184Bua3NgC/?mibextid=wwXIfr"
                             target="_blank"
                             rel="noopener noreferrer"
                             >
