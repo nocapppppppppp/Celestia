@@ -5,7 +5,7 @@ const products = [
     _id: "65a7e45902e12c44f599444e",
     title: "E - STUD BIG HEART GEM AND SINGLE GEM",
     description: "---",
-    price: 9.47,
+    price: 240000,
     discountPercentage: 12.96,
     stockQuantity: 14,
     brand: "65a7e20102e12c44f59943db",
@@ -25,7 +25,7 @@ const products = [
     title: "E - STUD BOW MULTI GEM",
     description:
       "---",
-    price: 8.33,
+    price: 210000,
     discountPercentage: 15.46,
     stockQuantity: 36,
     brand: "65a7e20102e12c44f59943db",
@@ -43,8 +43,8 @@ const products = [
     _id: "65a7e45902e12c44f5994451",
     title: "E - STUD CIRCLE GEM WITH BUTTERFLY",
     description: "---",
-    price: 7.95,
-    discountPercentage: 17.91,
+    price: 200000,
+    discountPercentage: 450000,
     stockQuantity: 123,
     brand: "65a7e20102e12c44f59943db",
     category: "65a7e24602e12c44f599442c",
@@ -63,7 +63,7 @@ const products = [
     title: "E - STUD SPECIAL CLOVER GEM",
     description:
       "---",
-    price: 9.47,
+    price: 240000,
     discountPercentage: 10.58,
     stockQuantity: 32,
     brand: "65a7e20102e12c44f59943db",
@@ -83,7 +83,7 @@ const products = [
     title: "B - MIX LULTI PEARL AND DROP CHARM",
     description:
       "---",
-    price: 13.27,
+    price: 330000,
     discountPercentage: 11.02,
     stockQuantity: 83,
     brand: "65a7e20102e12c44f59943dc",
@@ -104,7 +104,7 @@ const products = [
     title: "B - PINK BOW GEM",
     description:
       "---",
-    price: 11.75,
+    price: 300000,
     discountPercentage: 4.15,
     stockQuantity: 50,
     brand: "65a7e20102e12c44f59943dc",
@@ -123,7 +123,7 @@ const products = [
     title: "B - SPECIAL CLOVER LEAF BLINK GEM",
     description:
       "---",
-    price: 12.89,
+    price: 320000,
     discountPercentage: 10.23,
     stockQuantity: 68,
     brand: "65a7e20102e12c44f59943dc",
@@ -143,7 +143,7 @@ const products = [
     title: "B - STARFISH AND SCALLOP SHELL DROP CHARM",
     description:
       "---",
-    price: 11.37,
+    price: 280000,
     discountPercentage: 11.83,
     stockQuantity: 96,
     brand: "65a7e20102e12c44f59943dc",
@@ -163,7 +163,7 @@ const products = [
     title: "B - TRIPLE HEART PINK STONE",
     description:
       "---",
-    price: 12.51,
+    price: 310000,
     discountPercentage: 6.18,
     stockQuantity: 89,
     brand: "65a7e20102e12c44f59943dc",
@@ -184,7 +184,7 @@ const products = [
     title: "N - BLING TRIPLE RINGS",
     description:
       "---",
-    price: 11.37,
+    price: 280000,
     discountPercentage: 13.31,
     stockQuantity: 110,
     brand: "65a7e20102e12c44f59943de",
@@ -204,7 +204,7 @@ const products = [
     title: "N - CIRCLE WITH MINI FLOWER GEM",
     description:
       "---",
-    price: 12.13,
+    price: 310000,
     discountPercentage: 4.09,
     stockQuantity: 78,
     brand: "65a7e20102e12c44f59943de",
@@ -224,7 +224,7 @@ const products = [
     title: "N - CUTIE PEARL HORSE GEM",
     description:
       "---",
-    price: 12.51,
+    price: 310000,
     discountPercentage: 13.1,
     stockQuantity: 88,
     brand: "65a7e20102e12c44f59943de",
@@ -244,7 +244,7 @@ const products = [
     title: "N - MINI FLOWER AND SINGLE GEM",
     description:
       "---",
-    price: 12.13,
+    price: 310000,
     discountPercentage: 10.68,
     stockQuantity: 54,
     brand: "65a7e20102e12c44f59943de",
@@ -265,7 +265,7 @@ const products = [
     title: "N - BOW AND PINK HEART",
     description:
       "---",
-    price: 13.27,
+    price: 330000,
     discountPercentage: 16.99,
     stockQuantity: 140,
     brand: "65a7e20102e12c44f59943de",
@@ -283,7 +283,7 @@ const products = [
     _id: "65a7e45902e12c44f5994462",
     title: "A - MULTI BALL",
     description: "---",
-    price: 11.75,
+    price: 300000,
     discountPercentage: 4.81,
     stockQuantity: 133,
     brand: "65a7e20102e12c44f59943dd",
@@ -303,7 +303,7 @@ const products = [
     _id: "65a7e45902e12c44f5994463",
     title: "A - MULTI BALL AND DROP BELL",
     description: "---",
-    price: 12.13,
+    price: 310000,
     discountPercentage: 15.58,
     stockQuantity: 146,
     brand: "65a7e20102e12c44f59943dd",
@@ -323,7 +323,7 @@ const products = [
     title: "A - MULTI BALL DOUBLE LINE",
     description:
       "---",
-    price: 13.65,
+    price: 340000,
     discountPercentage: 8.04,
     stockQuantity: 26,
     brand: "65a7e20102e12c44f59943dd",
@@ -343,7 +343,7 @@ const products = [
     title: "R - MIDI FLOWER DOUBLE LEAF GEM",
     description:
       "---",
-    price: 15.21,
+    price: 380000,
     discountPercentage: 16.49,
     stockQuantity: 54,
     brand: "65a7e20102e12c44f59943da",
@@ -365,7 +365,7 @@ const products = [
     title: "R - MIDI PRINCESS CIRCLE GEM",
     description:
       "---",
-    price: 17.11,
+    price: 430000,
     discountPercentage: 15.34,
     stockQuantity: 7,
     brand: "65a7e20102e12c44f59943da",
@@ -385,7 +385,7 @@ const products = [
     title: "R - MIDI SLAY BUTTERFLY CRYSTAL STONE AND MULTI GEM",
     description:
       "---",
-    price: 15.17,
+    price: 380000,
     discountPercentage: 2.92,
     stockQuantity: 54,
     brand: "65a7e20102e12c44f59943da",
