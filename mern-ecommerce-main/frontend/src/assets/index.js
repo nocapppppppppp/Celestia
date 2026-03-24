@@ -11,6 +11,7 @@ import  QRCodePng from './images/QRCode.png'
 import facebookPng from './images/facebook.png'
 import twitterPng from './images/twitter.png'
 import instagramPng from './images/instagram.png'
+import tiktokPng from './images/tiktok.png'
 import linkedinPng from './images/linkedin.png'
 import banner2 from './images/banner2.jpg'
 import banner3 from './images/banner3.jpg'
@@ -30,6 +31,7 @@ export {
     facebookPng,
     twitterPng,
     instagramPng,
+    tiktokPng,
     linkedinPng,
     banner2,
     banner3,

@@ -1,7 +1,7 @@
 import { Box, IconButton, TextField, Typography, useMediaQuery, useTheme } from '@mui/material'
 import { Stack } from '@mui/material'
 import React from 'react'
-import { QRCodePng, appStorePng, googlePlayPng ,facebookPng,instagramPng,twitterPng,linkedinPng} from '../../assets'
+import { QRCodePng, appStorePng, googlePlayPng ,facebookPng,instagramPng,twitterPng,linkedinPng, tiktokPng} from '../../assets'
 import SendIcon from '@mui/icons-material/Send';
 import { MotionConfig, motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
@@ -88,11 +88,11 @@ export const Footer = () => {
                             />
                             </a>
                             <a
-                            href="https://www.facebook.com/share/184Bua3NgC/?mibextid=wwXIfr"
+                            href="https://www.tiktok.com/@celestiajewelry2026?_r=1&_t=ZS-94xb1Pm2LPL"
                             target="_blank"
                             rel="noopener noreferrer"
                             >
-                            <motion.img style={{cursor:"pointer"}} src={instagramPng} alt="Instagram"/>
+                            <motion.img style={{cursor:"pointer"}} src={tiktokPng} alt="Tiktok"/>
                             </a>
                             {/* <motion.img style={{cursor:"pointer"}} src={twitterPng} alt="Twitter" />
                             <motion.img style={{cursor:"pointer"}} src={linkedinPng} alt="Linkedin" /> */}
