@@ -70,24 +70,24 @@ export const Cart = ({checkout}) => {
 
                             <Stack flexDirection={'row'} justifyContent={'space-between'}>
                                 <Typography>Subtotal</Typography>
-                                <Typography>${subtotal}</Typography>
+                                <Typography>{subtotal.toLocaleString("vi-VN")} đ</Typography>
                             </Stack>
 
                             <Stack flexDirection={'row'} justifyContent={'space-between'}>
                                 <Typography>Shipping</Typography>
-                                <Typography>${SHIPPING}</Typography>
+                                <Typography>{subtotal.toLocaleString("vi-VN")} đ</Typography>
                             </Stack>
 
                             <Stack flexDirection={'row'} justifyContent={'space-between'}>
                                 <Typography>Taxes</Typography>
-                                <Typography>${TAXES}</Typography> 
+                                <Typography>{TAXES.toLocaleString("vi-VN")} đ</Typography>
                             </Stack>
 
                             <hr/>
 
                             <Stack flexDirection={'row'} justifyContent={'space-between'}>
                                 <Typography>Total</Typography>
-                                <Typography>${subtotal+SHIPPING+TAXES}</Typography>
+                                <Typography>{(subtotal+SHIPPING+TAXES).toLocaleString("vi-VN")} đ</Typography>
                             </Stack>
                             
 
@@ -101,7 +101,9 @@ export const Cart = ({checkout}) => {
                             </Stack>
 
                             <Stack>
-                                <Typography variant='h6' fontWeight={500}>${subtotal}</Typography>
+                                <Typography variant='h6' fontWeight={500}>
+                                {subtotal.toLocaleString("vi-VN")} đ
+                                </Typography>
                             </Stack>
                         </>
                     )
